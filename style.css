@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.total {
+    border: 0.5px solid;
+    padding: auto;
+    background-color:slategrey;
+    margin-top: 100px;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background: #202729;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 191, 71);
+}
+
+.details {
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project {
+    margin-top: 20px;
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+.zx {
+    width: 30px;
+    height: 27px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    background: rgb(255, 191, 71);
+    /* background-image: url(./Twitter.jpg); */
+    /* background-color: rgb(255, 191, 71); */
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 1.2em;
+    cursor: pointer;
+    /* padding: 1.2em; */
+}
+
+.zx:hover {
+    background: tomato;
+    border: 4px solid greenyellow;
+}
+
+.socialicons {
+    margin-top: 20px;
+}
+
+/* .social {
+    margin: 4px;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 191, 71);
+    font-size: 20px;
+    line-height: 40px;
+    color: #000;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+} */
+
+.description {
+    margin-top: 8px;
+}
+
+.langs {
+    list-style: none;
+}
+
+.lang {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-right: 6px;
+    background: rgb(255, 191, 71);
+    border-radius: 18px;
+    font-weight: 600px;
+}
